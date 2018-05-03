@@ -1,0 +1,3 @@
+# barbershop
+
+Educational project "Barbershop"
