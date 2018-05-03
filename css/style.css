@@ -38,7 +38,7 @@ input[type="radio"].visually-hidden {
 	white-space: nowrap;
 
 	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
+	clip: rect(0, 0, 0, 0);
 	overflow: hidden;
 }
 
@@ -416,7 +416,6 @@ input[type="radio"].visually-hidden {
 
 .social-button {
 	display: flex;
-	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
 	width: 43px;
@@ -702,6 +701,7 @@ input[type="radio"].visually-hidden {
 	top: 0;
 	left: 0;
 	z-index: 100;
+	border-width: 0;
 }
 
 /*CATALOG*/
@@ -711,7 +711,7 @@ input[type="radio"].visually-hidden {
 }
 
 .inner-page .main-navigation {
-	align-items: flex-star;
+	align-items: flex-start;
 	flex-direction: row;
 }
 
@@ -1078,7 +1078,7 @@ input[type="radio"].visually-hidden {
 }
 
 .product-photo-preview li {
-	width: 140;
+	width: 140px;
 	height: 149px;
 	margin-right: 20px;
 	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
@@ -1202,7 +1202,6 @@ input[type="radio"].visually-hidden {
 
 .inner-content .big-heading {
 	display: flex;
-	-ms-align-items: center;
 	align-items: center;
 
 	margin-top: 55px;
